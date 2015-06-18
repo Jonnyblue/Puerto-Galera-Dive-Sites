@@ -8,7 +8,8 @@ var sites = null,
 	indexes = [];
 //Set Default Font	
 var defaultFontSize = Ti.Platform.name === 'android' ? 16 : 14;
-
+var pWidth = Ti.Platform.displayCaps.platformWidth;
+var pHeight = Ti.Platform.displayCaps.platformHeight;
 
 
 
@@ -81,8 +82,33 @@ for (var i=0; i < sites.length; i++) {
 var table = Ti.UI.createTableView();
 table.setData(tbl_data);
 
+table.addEventListener('click', function(e){
+	var siteDetails = Titanium.UI.createWindow({  
+    title:sites[e.index].name,
+    
+});
+var heightFor16_9 = Math.floor(Ti.Platform.displayCaps.platformWidth/1.78/Ti.Platform.displayCaps.logicalDensityFactor);
 
+
+var youTubeUrl = 'http://www.youtube.com/embed/' + sites[e.index].youtube + '?autoplay=1&autohide=1&cc_load_policy=0&color=white&controls=0&fs=0&iv_load_policy=3&modestbranding=1&rel=0&showinfo=0';
+
+var webView = Ti.UI.createWebView({
+	backgroundImage: sites[e.index].photo,
+	top: 0,
+	backgroundColor: 'transparent',
+	height:heightFor16_9,
+	url:youTubeUrl,
+    enableZoomControls: false,
+    scalesPageToFit: false,
+    scrollsToTop: false,
+    showScrollbars: false
+});
+
+siteDetails.add(webView);
+siteDetails.open();
+});
 
 win1.add(table);
+
 
 win1.open();
