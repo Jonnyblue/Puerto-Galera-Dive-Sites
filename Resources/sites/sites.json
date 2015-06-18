@@ -2,25 +2,26 @@
   {
     "name": "Monkey Beach",
     "maxDepth": "20m / 60 ft",
-    "photo": "Monkey.png",
+    "photo": "diveSitePics/Monkey.png",
     "youtube": "V34z8E5dNOM",
-    "travelTime": "5mins",
+    "travelTime": "5 mins",
     "siteDescription": "The reef starts in very shallow water and slopes down to a sandy bottom. The coral outcrops are covered with Christmas tree tubeworms, the plate corals are home to small tropical fish and soft corals. On an ebb tide you can drift along the reef while seeing feather stars, moray eels, turtles and fusiliers to name but a few species. This is a popular night dive when tubeworms can be spotted at their best. You can drift all the way to Sabang Point with minimal effort. Cross currents are common on a flood tide."
   },
 {
     "name": "Dalaruan",
     "maxDepth": "20m / 60 ft",
-    "photo": "Dalaruan.png",
+    "photo": "diveSitePics/Dalaruan.png",
     "youtube": "63vmcw1ieKM",
-    "travelTime": "15mins",
+    "travelTime": "15 mins",
     "siteDescription": "We only started diving this dive site around 1 year ago. This is THE macro muck diving critter hunt dive site we have. In a sheltered bay close to Puerto Galera, you descend down a line to a sunken Banka at 12m. Normally you can find at least one Frogfish living on the wreck, but after seing the wreck, you swim off into the muck area, and can find all sorts of critters if you are lucky. Numerous species of Seahorses, Frogfish and Ghost Pipefish to name a few. If you are lucky you can find Mimic Octopus or Flamboyant cuttlefish showing off their colours. Definitely THE site for macro Photography."
   },
 {
     "name": "Alma Jane",
+    "location": "13.523127, 120.972739",
     "maxDepth": "30m / 100 ft",
-    "photo": "Alma.png",
+    "photo": "diveSitePics/Alma.png",
     "youtube": "Re3latNXKF0",
-    "travelTime": "3mins",
+    "travelTime": "3 mins",
     "siteDescription": "Standing upright at 30m, the Alma Jane was scuttled in 2003. Originally a Filipino cargo vessel, was stripped of all dangerous objects, and made safe for diving before sinking. Now the Alma Jane is a beautiful artificial reef, sitting just a minute away from Blue Ribbon Divers. Hiding underneath the Alma Jane by the rudder, you can always find sweetlips and snapper. Giant Lionfish glide around the wreck effortlessly, while a School of Batfish sometimes comes to visit from Sabang Wrecks. The site is ideal for the Wreck Speciality course, and also great on Enriched Air to extend the bottom time, giving you more time to explore."
   }
 

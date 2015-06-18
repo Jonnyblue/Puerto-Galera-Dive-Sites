@@ -57,7 +57,8 @@ for (var i=0; i < sites.length; i++) {
   var row = Ti.UI.createTableViewRow({
   	classname: 'sitesList',
   	rowIndex: i,
-  	height: 80
+  	height: 80,
+  	hasDetail: true
   });
   var diveSiteNameLabel = Ti.UI.createLabel({
     font:{fontFamily:'Arial', fontSize:defaultFontSize+6, fontWeight:'bold'},
@@ -104,11 +105,70 @@ var webView = Ti.UI.createWebView({
     showScrollbars: false
 });
 
+var maxDepthLabel = Ti.UI.createLabel({
+	text: 'Max Depth = ' + sites[e.index].maxDepth,
+	font: {fontSize:defaultFontSize+4, fontWeight:'bold'},
+	top: heightFor16_9 + 5,
+	right: 10
+});
+
+var distanceLabel = Ti.UI.createLabel({
+	text: 'Time from Blue Ribbon = ' + sites[e.index].travelTime,
+	font: {fontSize:defaultFontSize+4, fontWeight:'bold'},
+	top: heightFor16_9 + 35,
+	right: 10
+});
+
+var siteDescription = Ti.UI.createTextArea({
+	value: sites[e.index].siteDescription,
+	font: {fontSize:defaultFontSize},
+	top: heightFor16_9 + 70,
+	left: 10,
+	right: 10,
+	bottom: 10,
+	editable:false,
+	borderWidth: 2,
+  	borderColor: '#bbb',
+  	borderRadius: 5
+});
 siteDetails.add(webView);
+siteDetails.add(maxDepthLabel);
+siteDetails.add(distanceLabel);
+siteDetails.add(siteDescription);
 siteDetails.open();
 });
 
+Ti.Gesture.addEventListener('orientationchange',function(e) {
+	// get current device orientation from
+	// Titanium.Gesture.orientation
+	// get orientation from event object
+	// from e.orientation
+	// Ti.Gesture.orientation should match e.orientation
+	// but iOS and Android will report different values
+	// two helper methods return a Boolean
+	//e.source.isPortrait()
+	//if (e.source.isLandscape()) {
+	//	webView.height = Ti.Platform.displayCaps.platformHeight/logicalDensityFactor;
+		//webView.width = Ti.Platform.displayCaps.platformWidth/logicalDensityFactor;
+		//maxDepthLabel.hide();
+		//distanceLabel.hide();
+		//siteDescription.hide();
+		//distanceLabel.hide();
+		//webView.reload();
+//	};
+//	if (e.source.isPortrait()) {
+//		webView.height = Ti.Platform.displayCaps.platformWidth/logicalDensityFactor/1.78;
+//		webView.width = Ti.Platform.displayCaps.platformWidth/logicalDensityFactor;
+//		maxDepthLabel.show();
+//		distanceLabel.show();
+//		siteDescription.show();
+//		distanceLabel.show();
+//		webView.reload();
+		
+//	};
+});
+
+
+
 win1.add(table);
-
-
 win1.open();
