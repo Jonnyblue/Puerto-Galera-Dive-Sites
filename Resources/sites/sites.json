@@ -5,6 +5,8 @@
     "photo": "diveSitePics/Monkey.png",
     "youtube": "V34z8E5dNOM",
     "travelTime": "5 mins",
+    "latitude": "13.522745",
+    "longitude": "120.981094",
     "siteDescription": "The reef starts in very shallow water and slopes down to a sandy bottom. The coral outcrops are covered with Christmas tree tubeworms, the plate corals are home to small tropical fish and soft corals. On an ebb tide you can drift along the reef while seeing feather stars, moray eels, turtles and fusiliers to name but a few species. This is a popular night dive when tubeworms can be spotted at their best. You can drift all the way to Sabang Point with minimal effort. Cross currents are common on a flood tide."
   },
 {
@@ -12,12 +14,15 @@
     "maxDepth": "20m / 60 ft",
     "photo": "diveSitePics/Dalaruan.png",
     "youtube": "63vmcw1ieKM",
+    "latitude": "13.516048",
+    "longitude": "120.962631",
     "travelTime": "15 mins",
     "siteDescription": "We only started diving this dive site around 1 year ago. This is THE macro muck diving critter hunt dive site we have. In a sheltered bay close to Puerto Galera, you descend down a line to a sunken Banka at 12m. Normally you can find at least one Frogfish living on the wreck, but after seing the wreck, you swim off into the muck area, and can find all sorts of critters if you are lucky. Numerous species of Seahorses, Frogfish and Ghost Pipefish to name a few. If you are lucky you can find Mimic Octopus or Flamboyant cuttlefish showing off their colours. Definitely THE site for macro Photography."
   },
 {
     "name": "Alma Jane",
-    "location": "13.523127, 120.972739",
+    "latitude": "13.523127",
+    "longitude": "120.972739",
     "maxDepth": "30m / 100 ft",
     "photo": "diveSitePics/Alma.png",
     "youtube": "Re3latNXKF0",

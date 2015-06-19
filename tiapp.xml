@@ -38,7 +38,17 @@
             </dict>
         </plist>
     </ios>
-    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+    	<manifest>
+    		<uses-permission android:name="android.permission.INTERNET" />
+            <application>
+            	
+                <!-- Replace "PASTE YOUR GOOGLE MAPS API KEY HERE" with the Google API key you obtained -->
+                <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyD7Dlr08xarELM4O7S9fawdmXYzayMqd_o"/>
+            </application>
+
+        </manifest>
+    </android>
     <mobileweb>
         <precache/>
         <splash>

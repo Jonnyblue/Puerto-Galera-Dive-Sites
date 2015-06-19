@@ -2,8 +2,8 @@
 Titanium.UI.setBackgroundColor('#000');
 
 
-
-
+var MapModule = require('ti.map');
+var mapBool = false;
 var sites = null,
 	indexes = [];
 //Set Default Font	
@@ -104,37 +104,114 @@ var webView = Ti.UI.createWebView({
     scrollsToTop: false,
     showScrollbars: false
 });
+var imageView = Ti.UI.createImageView({
+	image: sites[e.index].photo,
+	top: 0,	
+	height:heightFor16_9,
+});
+
+var mapView = MapModule.createView({
+	region:{latitude:sites[e.index].latitude, longitude:sites[e.index].longitude, latitudeDelta:0.005, longitudeDelta:0.005},
+	top: 0,
+	mapType: 2,
+	height: heightFor16_9,
+	visible: false
+});
+
+var blueRibbonAnnotation = MapModule.createAnnotation({
+	title: "Blue Ribbon Dive Resort",
+	latitude: 13.522601,
+	longitude: 120.971819,
+	dragable: false
+	
+});
+
+var siteAnnotation = MapModule.createAnnotation({
+	title: sites[e.index].name,
+	latitude: sites[e.index].latitude,
+	longitude: sites[e.index].longitude,
+	dragable: false
+	
+});
+
+mapView.addAnnotation(blueRibbonAnnotation);
+mapView.addAnnotation(siteAnnotation);
 
 var maxDepthLabel = Ti.UI.createLabel({
-	text: 'Max Depth = ' + sites[e.index].maxDepth,
+	text: 'Max Depth = ' + sites[e.index].maxDepth + '\n' + 'Time from Blue Ribbon = ' + sites[e.index].travelTime,
 	font: {fontSize:defaultFontSize+4, fontWeight:'bold'},
-	top: heightFor16_9 + 5,
-	right: 10
+	top: heightFor16_9 + 55,
+	left: 10
 });
 
 var distanceLabel = Ti.UI.createLabel({
 	text: 'Time from Blue Ribbon = ' + sites[e.index].travelTime,
 	font: {fontSize:defaultFontSize+4, fontWeight:'bold'},
-	top: heightFor16_9 + 35,
+	top: heightFor16_9 + 55,
 	right: 10
 });
 
 var siteDescription = Ti.UI.createTextArea({
 	value: sites[e.index].siteDescription,
 	font: {fontSize:defaultFontSize},
-	top: heightFor16_9 + 70,
+	top: heightFor16_9 + 110,
 	left: 10,
 	right: 10,
 	bottom: 10,
 	editable:false,
-	borderWidth: 2,
-  	borderColor: '#bbb',
-  	borderRadius: 5
+	borderWidth: 0,
+  	borderColor: '#bbb'
 });
-siteDetails.add(webView);
+
+var button = Ti.UI.createButton({
+	backgroundImage: 'map.png',
+	title:'Map',
+	top: heightFor16_9 + 5,
+	left: 10,
+	width: 200,
+	height: 50
+	
+});
+
+var movieButton = Ti.UI.createButton({
+	backgroundImage: 'YouTube-logo-full_color.png',
+	top: heightFor16_9 + 5,
+	right: 10,
+	width: 200,
+	height: 50
+	
+});
+var url = 'http://www.youtube.com/watch?v=' + sites[e.index].youtube;
+
+movieButton.addEventListener('click',function(e){
+	Ti.Platform.openURL(url);
+});
+
+button.addEventListener('click',function(e)
+{
+
+   if (mapBool) {
+   	imageView.show();
+   	mapView.hide();
+   	mapBool = false;
+   	
+   }
+   else {
+   	imageView.hide();
+   	mapBool = true;
+   	mapView.show();  	
+   };
+   
+});
+siteDetails.add(mapView);
+//siteDetails.add(webView);
+siteDetails.add(imageView);
+siteDetails.add(movieButton);
 siteDetails.add(maxDepthLabel);
-siteDetails.add(distanceLabel);
+//siteDetails.add(distanceLabel);
 siteDetails.add(siteDescription);
+siteDetails.add(button);
+
 siteDetails.open();
 });
 
