@@ -38,18 +38,18 @@ var sort_by = function(field, reverse, primer){
 }
 //sort the array by name	
 sites.sort(sort_by('name', false, function(a){return a.toUpperCase()}));
+
+var tabGroup = Titanium.UI.createTabGroup();
+
+
+
+
 //create the window
 var win1 = Titanium.UI.createWindow({  
     title:'Puerto Galera Dive Sites',
     backgroundColor:'black'
 });
 
-//create a tab
-var tab1 = Titanium.UI.createTab({  
-    icon:'KS_nav_views.png',
-    title:'Dive Sites',
-    window:win1
-});
 
 //create the table data
 var tbl_data = [];
@@ -58,23 +58,36 @@ for (var i=0; i < sites.length; i++) {
   	classname: 'sitesList',
   	rowIndex: i,
   	height: 80,
-  	hasDetail: true
+  	hasDetail: true,
+  	rightImage: 'KS_nav_ui.png'
   });
   var diveSiteNameLabel = Ti.UI.createLabel({
     font:{fontFamily:'Arial', fontSize:defaultFontSize+6, fontWeight:'bold'},
     text:sites[i].name,
-    left:6,
+    left:135,
     top: 6,
     width:200, height: 30
   });
   
+  var smallImageFile = sites[i].photo.slice(0, 13) + "s_" + sites[i].photo.slice(13);    // insert _s into the fileName for a small file
+  
+  var diveSiteImage = Ti.UI.createImageView({
+  	left:6,
+    top: 5,
+    image: smallImageFile,
+    width: 125,
+    height: 70
+  });
+  
+  
   var maxDepthLabel = Ti.UI.createLabel({
     font:{fontFamily:'Arial', fontSize:defaultFontSize},
     text:sites[i].maxDepth,
-    left:6,
+    left:135,
     top: 40,
     width:200, height: 30
   });
+  row.add(diveSiteImage);
   row.add(diveSiteNameLabel);
   row.add(maxDepthLabel);
   tbl_data.push(row);
@@ -248,4 +261,58 @@ Ti.Gesture.addEventListener('orientationchange',function(e) {
 
 
 win1.add(table);
-win1.open();
+var tab1 = Titanium.UI.createTab({
+
+
+    title:'Dive Sites',
+
+    window:win1
+
+});
+
+var win2 = Titanium.UI.createWindow({
+
+    title:'Map',
+
+    backgroundColor:'#fff'
+
+});
+
+var mapPage = MapModule.createView({
+	region:{latitude:'13.522601', longitude:'120.971819', latitudeDelta:0.01, longitudeDelta:0.01},
+	mapType: 2
+});
+
+win2.add(mapPage);
+
+var diveSitesMapArray = [];
+for (var i=0; i < sites.length; i++) {
+  var mapPageAnnotation = MapModule.createAnnotation({
+  	longitude: sites[i].longitude,
+  	latitude: sites[i].latitude,
+  	title: sites[i].name,
+  	dragable: false
+  });
+  diveSitesMapArray.push(mapPageAnnotation); 
+};
+var blueRibbonAnnotation = MapModule.createAnnotation({
+	title: "Blue Ribbon Dive Resort",
+	latitude: 13.522601,
+	longitude: 120.971819,
+	dragable: false	
+});
+  diveSitesMapArray.push(blueRibbonAnnotation);
+  	
+var tab2 = Titanium.UI.createTab({
+
+    title:'Map',
+
+    window:win2
+
+});
+
+tabGroup.addTab(tab1);
+
+tabGroup.addTab(tab2);
+
+tabGroup.open();

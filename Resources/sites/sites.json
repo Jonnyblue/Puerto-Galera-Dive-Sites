@@ -1,33 +1,214 @@
-{"sites":[
-  {
-    "name": "Monkey Beach",
-    "maxDepth": "20m / 60 ft",
-    "photo": "diveSitePics/Monkey.png",
-    "youtube": "V34z8E5dNOM",
-    "travelTime": "5 mins",
-    "latitude": "13.522745",
-    "longitude": "120.981094",
-    "siteDescription": "The reef starts in very shallow water and slopes down to a sandy bottom. The coral outcrops are covered with Christmas tree tubeworms, the plate corals are home to small tropical fish and soft corals. On an ebb tide you can drift along the reef while seeing feather stars, moray eels, turtles and fusiliers to name but a few species. This is a popular night dive when tubeworms can be spotted at their best. You can drift all the way to Sabang Point with minimal effort. Cross currents are common on a flood tide."
-  },
 {
-    "name": "Dalaruan",
-    "maxDepth": "20m / 60 ft",
-    "photo": "diveSitePics/Dalaruan.png",
-    "youtube": "63vmcw1ieKM",
-    "latitude": "13.516048",
-    "longitude": "120.962631",
-    "travelTime": "15 mins",
-    "siteDescription": "We only started diving this dive site around 1 year ago. This is THE macro muck diving critter hunt dive site we have. In a sheltered bay close to Puerto Galera, you descend down a line to a sunken Banka at 12m. Normally you can find at least one Frogfish living on the wreck, but after seing the wreck, you swim off into the muck area, and can find all sorts of critters if you are lucky. Numerous species of Seahorses, Frogfish and Ghost Pipefish to name a few. If you are lucky you can find Mimic Octopus or Flamboyant cuttlefish showing off their colours. Definitely THE site for macro Photography."
-  },
-{
-    "name": "Alma Jane",
-    "latitude": "13.523127",
-    "longitude": "120.972739",
-    "maxDepth": "30m / 100 ft",
-    "photo": "diveSitePics/Alma.png",
-    "youtube": "Re3latNXKF0",
-    "travelTime": "3 mins",
-    "siteDescription": "Standing upright at 30m, the Alma Jane was scuttled in 2003. Originally a Filipino cargo vessel, was stripped of all dangerous objects, and made safe for diving before sinking. Now the Alma Jane is a beautiful artificial reef, sitting just a minute away from Blue Ribbon Divers. Hiding underneath the Alma Jane by the rudder, you can always find sweetlips and snapper. Giant Lionfish glide around the wreck effortlessly, while a School of Batfish sometimes comes to visit from Sabang Wrecks. The site is ideal for the Wreck Speciality course, and also great on Enriched Air to extend the bottom time, giving you more time to explore."
-  }
-
-  ]}
+  "sites": [
+    {
+      "name": "Monkey Beach",
+      "maxDepth": "20m / 60 ft",
+      "photo": "diveSitePics/Monkey.png",
+      "youtube": "V34z8E5dNOM",
+      "travelTime": "5 mins",
+      "latitude": "13.522745",
+      "longitude": "120.981094",
+      "siteDescription": "The reef starts in very shallow water and slopes down to a sandy bottom. The coral outcrops are covered with Christmas tree tubeworms, the plate corals are home to small tropical fish and soft corals. On an ebb tide you can drift along the reef while seeing feather stars, moray eels, turtles and fusiliers to name but a few species. This is a popular night dive when tubeworms can be spotted at their best. You can drift all the way to Sabang Point with minimal effort. Cross currents are common on a flood tide."
+    },
+    {
+      "name": "Dalaruan",
+      "maxDepth": "20m / 60 ft",
+      "photo": "diveSitePics/Dalaruan.png",
+      "youtube": "63vmcw1ieKM",
+      "latitude": "13.516048",
+      "longitude": "120.962631",
+      "travelTime": "15 mins",
+      "siteDescription": "We only started diving this dive site around 1 year ago. This is THE macro muck diving critter hunt dive site we have. In a sheltered bay close to Puerto Galera, you descend down a line to a sunken Banka at 12m. Normally you can find at least one Frogfish living on the wreck, but after seing the wreck, you swim off into the muck area, and can find all sorts of critters if you are lucky. Numerous species of Seahorses, Frogfish and Ghost Pipefish to name a few. If you are lucky you can find Mimic Octopus or Flamboyant cuttlefish showing off their colours. Definitely THE site for macro Photography."
+    },
+    {
+      "name": "Alma Jane",
+      "latitude": "13.523127",
+      "longitude": "120.972739",
+      "maxDepth": "30m / 100 ft",
+      "photo": "diveSitePics/Alma.png",
+      "youtube": "Re3latNXKF0",
+      "travelTime": "3 mins",
+      "siteDescription": "Standing upright at 30m, the Alma Jane was scuttled in 2003. Originally a Filipino cargo vessel, was stripped of all dangerous objects, and made safe for diving before sinking. Now the Alma Jane is a beautiful artificial reef, sitting just a minute away from Blue Ribbon Divers. Hiding underneath the Alma Jane by the rudder, you can always find sweetlips and snapper. Giant Lionfish glide around the wreck effortlessly, while a School of Batfish sometimes comes to visit from Sabang Wrecks. The site is ideal for the Wreck Speciality course, and also great on Enriched Air to extend the bottom time, giving you more time to explore."
+    },
+    {
+      "name": "Boulders",
+      "latitude": "13.511079",
+      "longitude": "120.983302",
+      "maxDepth": "30m / 100 ft",
+      "photo": "diveSitePics/boulders.png",
+      "youtube": "hVwqmainElk",
+      "travelTime": "15 mins",
+      "siteDescription": "As you enter the site you face a vertical stonewall and a few large boulders breaking the surface. As you descend the site is covered with different shapes and sizes of boulders.\nYou can see gorgonians, basket sponges and soft tree corals. Blue fingered starfish, Sea Cucumbers, Stonefish, Scorpion Fish, Lionfish, Spotted Snapper and Striped Sweetlips are all abundant here and a good dive to spot seahorse.\nIt is a good site for wide-angle and macro photography."
+    },
+    {
+      "name": "Sabang Wrecks",
+      "latitude": "13.522209",
+      "longitude": "120.975621",
+      "maxDepth": "20m / 60 ft",
+      "photo": "diveSitePics/sabangWrecks.png",
+      "youtube": "bxWMn6PyN20",
+      "travelTime": "4 mins",
+      "siteDescription": "One of the most famous dive sites in Sabang. Only minutes away from the beach, but holding such a wide diversity of marine life. Most sort after, are the numerous Frogfish that can be found on the three wrecks. Giant, Painted and Warty Frogfish all reside on the wrecks, camouflaged in every nook and cranny, waiting for a not so lucky fish to go for its lure.\nBut be careful, also hiding on the wrecks are numerous Scorpion and Stonefish. Schools of Batfish swim around the wrecks, that have become very accustomed to divers, making great photo opportunities. Furry orangoutang crabs hide within the bubble coral, with ornate ghost pipefishes are located close by, using crinoids as disguise.\nOne of the favorite night dives, the wrecks become alive with smaller crustaceans and even more macro. Occasional sightings of Spanish Dancesr and Blue Ring Octopus if you are lucky."
+    },
+    {
+      "name": "Kilima Steps",
+      "latitude": "13.519588",
+      "longitude": "120.991407",
+      "maxDepth": "30m / 100 ft",
+      "photo": "diveSitePics/kilimaSteps.png",
+      "youtube": "NT_YbnqNdEg",
+      "travelTime": "10 mins",
+      "siteDescription": "This dive site ia about eight minutes from the dive centre. The site has a series of reefs from 5m / 17ft to 30m/ 99ft, making the steps a great multilevel dive. Along with the soft and hard corals you can spot batfish, tuna and surgeonfish. As you ascend to shallower depths you pass over basket sponges and mushroom corals.\nTriggerfish, Spotted Boxfish and porcupine Pufferfish can also be seen along with Parrotfish and sometimes turtles are present here."
+    },
+    {
+      "name": "Manila Channel",
+      "latitude": "13.523780",
+      "longitude": "120.946809",
+      "maxDepth": "20m / 60 ft",
+      "photo": "diveSitePics/manilaChannel.png",
+      "youtube": "SW-DQ5_jq8A",
+      "travelTime": "13 mins",
+      "siteDescription": "One of the furthest dive sites away, but definitely worth the trip. Here many small macro creatures can be found, as well as sea snakes, sergeant majors and butterfly fish.\nBest done on the Ebb tide, you start the dive at 5m, then as you go deeper you will drift past two walls at 18-22m, covered with potato coral, whip coral and giant gorgonian fans. At the end of dive you come to a mountain of table top coral at 10m, with canyons and gullies seeming to be carved into it. Groupers often can be found here, but you have to be quick to see them, as they normally hide when divers approach."
+    },
+    {
+      "name": "Verde Island",
+      "latitude": "13.532266",
+      "longitude": "121.104342",
+      "maxDepth": "70m+ / 230+ ft",
+      "photo": "diveSitePics/verdeIsland.png",
+      "youtube": "G_-lXmWEr7s",
+      "travelTime": "1 hour",
+      "siteDescription": "Verde Island is about a 45 minute boat ride away from Blue Ribbon Divers Resort. There are a few dive sites around the Island, all offering amazing visibility (normally 30m+), and an abundance of marine life. Verde Island is not for the beginner. Strong up and down currents are common, so Verde is usually visited when the currents are small.\nVerde Island Drop Off\nThe only sign that there is a world class dive site just meters below, are two pinnacles piercing the surface of the water. These pinnacles drop down deep, offering an amazing wall dive that can be dived again and again, without the fear of getting bored.\nYou drop in at the top of the pinnacles, at around 5m. Negative entry might be a requirement if the currents are playing up, as the wall protects you from the current. Here is when you will gasp at the crystal clear waters and the abundance of fish. As you follow the wall down, you will see thousands of Red Tooth Triggerfish, Antheas and Butterfly Fish. Whip corals and Gorgonian fans scatter the wall, with there macro inhabitants, Whip Coral Shrimp and Pigmy Seahorse, thinking they can hide from our guides. Verde Island is often referred to as ‘Fish Soup’ due to the huge numbers of fish that swim in its waters.\nVerde Island also holds a huge amount of Nudibranch that rivals Anilao. Thousands of species can be found everywhere here, including the Spanish Dancer. Also beware of touching the reef, as there are some of the largest Scorpionfish you can find, lying, waiting for an unaware fish to swim into its sights.\nAs you reach the edge of the pinnacle, there is a ledge at 18m. Here is where you will find the larger inhabitants of Verde Island. Here the wall ends, so the current soars. Not to worry, as you can just hold on to the ledge and look above you at the schools of Barracuda, Giant Trevally and Tuna play in the current. Here you can also find mating Jacks, pairing up and swimming in unison together in the current at certain times of the year.\nOften we do two dives on the Drop Off. One dive on the wall side, and the other on the other side. Here is a sloping reef, rich in volcanic activity, with volcanic bubbles, streaming from the sea floor. This side of the Drop Off is where the larger fish are, where you will find sweetlips, Bannerfish and Sargent Majors swimming in the currents above. Make sure you stay behind and pay close attention to your guide, as the current picks up on this dive. You start a slow drift, normally at a giant Gorgonian Fan located at 27m, and slowly go with the current. As you get closer to the end of the wall, the current starts racing, and you have to make sure that at the right time you nip back behind the Wall. Otherwise you are in the blue, and its time for your accent.\nThe Washing Machine\nNot for the feint hearted, the Washing Machine is a high octane adrenaline dive. On slack tide it is a very beautiful series of canyons at 15m. Yet, when the current is running, the current shoots over the canyons causing a ‘washing machine’ effect. You’ll get thrown up, down, left and right. Gloves are very useful on this dive as you can use them to hold onto some dead coral or a rock if needed. Reef Hooks can be used also, but make sure you don’t attach them to any live coral."
+    },
+    {
+      "name": "Giant Clams",
+      "latitude": "13.510962",
+      "longitude": "120.955910",
+      "maxDepth": "20m / 60 ft",
+      "photo": "diveSitePics/giantClams.png",
+      "youtube": "ggZ9a5iaRfQ",
+      "travelTime": "10 mins",
+      "siteDescription": "Located close to Puerto Galera’s main harbour, Muelle Pier, Giant Clams is renowned for its muck diving. Here you can find Hairy Frogfish, many different species of Nudibranch, Mimic Octopus and Wonderpus and Flamboyant Cuttlefish if you are lucky.\nThe site starts shallow at 6m, where you can find the Giant Clams, some up to 1.5m wide, calmly filter-feeding the nutrient rich waters. You then swim deeper, and end up in the muck, a sandy grassy bottom, where many of natures oddities that have mastered camouflage reside.\nOur staff are experts at finding the smallest creatures here hiding in the sand. Bob tail squid are here, only 1 cm long, yet still changing colour and shape like its bigger relatives."
+    },
+    {
+      "name": "Lalaguna Point",
+      "latitude": "13.526094",
+      "longitude": "120.970106",
+      "maxDepth": "20m / 60 ft",
+      "photo": "diveSitePics/lalagunaPoint.png",
+      "youtube": "3nENvuAhPAM",
+      "travelTime": "5 mins",
+      "siteDescription": "A beautiful reef dive less than five minutes from the dive center abundant with fish life and corals. the contour gets steeper where Sweetlips, small schools of Surgeonfish, Angelfish and Triggerfish can be seen. Also Lionfish and Scorpionfish habit the area. To the west of the site different species of anemone are home to Clownfish and small shrimp. Solefish and stargazers can be spotted during a night dive. This site is best on a flood tide."
+    },
+    {
+      "name": "Coral Gardens",
+      "latitude": "13.528095",
+      "longitude": "120.947969",
+      "maxDepth": "10m / 30 ft",
+      "photo": "diveSitePics/coralGardens.png",
+      "youtube": "7v1NzGk4i24",
+      "travelTime": "15 mins",
+      "siteDescription": "This is a beautiful dive site and also a great snorkeling area. Between sand and large coral outcrops, Brain corals and Giant plate Corals can be seen along with Basket Sponges and exotic soft corals.\nDifferent species of tropical fish are everywhere, including Angelfish, Pipefish, Lizardfish to name but a few. Nudibranchs and Ribbon eels can be spotted making this a great site for underwater photography."
+    },
+    {
+      "name": "Sabang Point",
+      "latitude": "13.526094",
+      "longitude": "120.970106",
+      "maxDepth": "25m / 80 ft",
+      "photo": "diveSitePics/sabangPoint.png",
+      "youtube": "rc2048lsGO4",
+      "travelTime": "5 mins",
+      "siteDescription": "If you start this dive shallow you can follow the reef down to a beautiful area consisting of a variety of soft and hard corals. You can also see basket sponges, gorgonian fans, green tree corals, brain corals and plate corals.\nThe site is teeming with fish life including sweetlips, parrotfish, surgeonfish and small tuna. Turtles and cuttlefish can be spotted as well, also this area is home to nudibranchs, and many small creatures making this a perfect photography and night dive."
+    },
+    {
+      "name": "Dungon Wall",
+      "latitude": "13.522763",
+      "longitude": "120.985852",
+      "maxDepth": "30m / 100 ft",
+      "photo": "diveSitePics/dungonWall.png",
+      "youtube": "HcTkW29ywuU",
+      "travelTime": "9 mins",
+      "siteDescription": "This dive site can be reached within six minutes of the dive centre.This dive is a great multilevel dive as it is a sloping reef. The ocean floor is covered with staghorn coral, plate coral and mushroom corals. About 12m / 40ft ‘Dungon Wall’ starts and drops to a sandy bottom at 27m / 89ft.\nThe wall has a variety of nudibranchs making it a great macro photography dive. Scorpionfish can also be spotted. On the bottom lies a twin hull catamaran which is now an artificial reef. Surrounding the wreck are angelfish and batfish, damsels, anthias, lizard fish and lionfish.This site can be a drift dive."
+    },
+    {
+      "name": "Ernies Point",
+      "latitude": "13.523307",
+      "longitude": "120.982980",
+      "maxDepth": "30m / 100 ft",
+      "photo": "diveSitePics/erniesPoint.png",
+      "youtube": "KRMQYD2rA44",
+      "travelTime": "7 mins",
+      "siteDescription": "On a flood tide you can start this dive in the shallows of Monkey Beach and follow the reef down to 30m / 99ft. There a large rocky coral formations littered with green tree corals, siphon sponges and Gorgonian Seafans.\nOn a multilevel dive you can make your way up the reef, where you can see crinoids and make your way to a small cave at 21m / 69ft. Big – eye soldier fish can be spotted as well along with blue- spotted trevally, surgeonfish and unicornfish. If you finish of the dive shallow you can see an abundance of soft corals, small snapper, sweetlips and small fauna."
+    },
+    {
+      "name": "West Escarceo",
+      "latitude": "13.522558",
+      "longitude": "120.990922",
+      "maxDepth": "30m / 100 ft",
+      "photo": "diveSitePics/westEscarceo.png",
+      "youtube": "eFXwJB7feBA",
+      "travelTime": "8 mins",
+      "siteDescription": "A large amount of fish life and corals are visible on this sloping reef dive, including Butterflyfish, sergeant majors, damsels, pipefish, moorish idols, triggerfish and pufferfish.\nAs you descend down the sloping reef you may see Porcupine pufferfish, moray eels and cuttlefish. Looking out from the sloping reef there are small shoals of tuna and Spanish Mackerel to be seen.\nThis can be an exciting drift dive which finishes at Hole in the Wall. This site is a great night dive and we recommend using Nitrox to get more out of this beautiful site."
+    },
+    {
+      "name": "Sianandigan Wall",
+      "latitude": "13.516443",
+      "longitude": "120.990471",
+      "maxDepth": "40m / 130 ft",
+      "photo": "diveSitePics/siandiganWall.png",
+      "youtube": "NmlQlj7QMtI",
+      "travelTime": "12 mins",
+      "siteDescription": "The wall is vertical from 10m / 33ft to 30m / 99ft where it then becomes more of a slope. There is a large variety of fish and coral life here. The wall has many soft corals, small fans and lagre green corals.\nThe fish life includes Moorish Idols, Lizardfish, Zebra Lionfish, Stonefish, Powder Blue and Ring-tailed Surgeonfish, also a large diversity of Nudibranch can be spotted too, making this a great macro photography dive."
+    },
+    {
+      "name": "Coral Cove",
+      "latitude": "13.515577",
+      "longitude": "120.986286",
+      "maxDepth": "20m / 60 ft",
+      "photo": "diveSitePics/coralCove.png",
+      "youtube": "QqSPV2He8zo",
+      "travelTime": "14 mins",
+      "siteDescription": "Coral Cove is often missed by local divers. It is home to a few very interesting species. You can find Pigmy Seahorses here all year round, along with the occational Ornate Ghost Pipefish.\nAlso found here are a few Electric Clams. These weird clams flash with blue light, that looks exactly like electricity. Also home to a few Blue Ribbon Eels, and a breeding area for sting rays.\nThe Clams can be found at 22m, whilst the rays are normally around 24 meters. Can only be dived on the flood tide."
+    },
+    {
+      "name": "Hole in the Wall",
+      "latitude": "13.523309",
+      "longitude": "120.992612",
+      "maxDepth": "20m / 60 ft",
+      "photo": "diveSitePics/holeInTheWall.png",
+      "youtube": "4CkBfiqCPTE",
+      "travelTime": "10 mins",
+      "siteDescription": "Another one for Puerto Galera’s signature dive sites, Hole In The Wall is located just north of Escarceo Point. The hole is a small swim through at 12m. This site is renowned for the big fish that like to play in the current here. Schools of Jacks, Giant Trevallies, Sweet Lips can all be seen just above the Hole in the Wall when the current is right. The Hole in the Wall also can lead down to the Canyons for advanced divers.\nThis can be a dive site for all levels, but when there is a strong flood current, it can be an exhilarating drift dive, and you can literally get shot through the hole. Make sure you stick close to the bottom where the current is weaker, and make sure that you stay close to the guide!"
+    },
+    {
+      "name": "Dry Dock",
+      "latitude": "13.527188",
+      "longitude": "120.968662",
+      "maxDepth": "30m / 100 ft",
+      "photo": "diveSitePics/dryDock.png",
+      "youtube": "vHN1H9NClAY",
+      "travelTime": "5 mins",
+      "siteDescription": "This advanced dive site is less than five minutes from the dive centre.\nDry Dock is a large steel and plywood construction. It was was sunk to create a man-made reef. It is home to a variety of marine life including, Sweetlips, Snapper, Batfish, Surgeonfish, Barracuda, Pipefish and many more.\nAfter you have seen this you can swim to the shallower depths of LaLaguna Point.\nNitrox would be good to use to give you that extra time."
+    },
+    {
+      "name": "Canyons",
+      "latitude": "13.523717",
+      "longitude": "120.993898",
+      "maxDepth": "30m / 100 ft",
+      "photo": "diveSitePics/canyons.png",
+      "youtube": "TyxEvj-GI3E",
+      "travelTime": "10 mins",
+      "siteDescription": "Puerto Galera’s signature exhilarating drift dive, not for the novice. Drop in at Hole-in-the-Wall, and let the current take you. After a small drift, three canyons are situated at 24, 27 and 30m, that protect you from the current. Here you can kneel down, and watch the shoals of Snapper, Giant Trevallies, Sweetlips, Barracuda, Emperor fish play in the current. Sea snakes are commonly found here, along with an assortment of Nudibranch.\nJust after the third Canyon (at 30m) you can find an old 1.5m Spanish Anchor, where you can hold on and regroup before letting go and starting your ascent.\nBest experienced on Nitrox, after your bottom time is up, its time for a accent into the blue. Up and down currents can throw you around while ascending, so make sure you watch your depth meter or your divemaster. If the currents are strong you can end up 1 mile away from your entry point, so make sure you stick with your group."
+    },
+    {
+      "name": "Atoll",
+      "latitude": "13.520408",
+      "longitude": "120.994232",
+      "maxDepth": "30m / 100 ft",
+      "photo": "diveSitePics/atoll.png",
+      "youtube": "HgxvY2A51Fw",
+      "travelTime": "12 mins",
+      "siteDescription": "This submerged rock formation appears as a mini mountain covered in soft corals, sea fans, and siphon sponges which gives the site some beautiful colours.\nThe rock face is home to small moray eels, nudibranchs and small reef fish. On one side there is a overhang and there you can find scorpionfish and lionfish and on the deeper side, the reef drops to a sandy bottom where occasionally white tip sharks can be seen.\nWhen the current is ebbing you can shelter close to the bottom and watch tunas and jacks pass by. There is much to see on this dive and to get the most out of it, we recommend using Nitrox."
+    }
+  ]
+}
